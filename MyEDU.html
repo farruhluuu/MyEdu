@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://myedu.oshsu.kg/#/studentSchedules -->
+<html lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="https://myedu.oshsu.kg/favicon.ico" />
+    <title>MyEDU</title>
+    <!-- <link id="theme-link" rel="stylesheet" href="/themes/md-light-indigo/theme.css" /> -->
+    <!-- <link id="theme-link" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/primevue@3.33.0/resources/themes/saga-blue/theme.css" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primevue/3.41.1/resources/themes/saga-blue/theme.min.css" integrity="sha512-wMAMxz4DbWMVqY8VAnbA18rVumoRx4UGip2PC+6Yrw7oqRn7YqwN7NOE6J/XFCBxb+NSydoCD6AsV0vDVLjKnw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- <link id="theme-link" rel="stylesheet" href="/themes/lara-light-blue/theme.css" /> -->
+    <!-- <link id="theme-link" rel="stylesheet" href="/themes/saga-blue/theme.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="./MyEDU_files/theme.min.css"
+      integrity="sha512-a5eFfDV2zoIigWoWMx8DpRcSB8I7sb6XCx53WytT5QZa95QFvrneEx+a9Ym1GIrGC5vPiVE/1Wg+9qVYpqojfg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <script src="public/config.js"></script> -->
+    <script
+      type="module"
+      crossorigin=""
+      src="./MyEDU_files/index.e199d61f.1738925476577.js.Без названия"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="./MyEDU_files/index.820d65d1.1738925476577.css"
+    />
+    <style type="text/css">
+      .p-colorpicker {
+        display: inline-block;
+      }
+      .p-colorpicker-dragging {
+        cursor: pointer;
+      }
+      .p-colorpicker-overlay {
+        position: relative;
+      }
+      .p-colorpicker-panel {
+        position: relative;
+        width: 193px;
+        height: 166px;
+      }
+      .p-colorpicker-overlay-panel {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .p-colorpicker-preview {
+        cursor: pointer;
+      }
+      .p-colorpicker-panel .p-colorpicker-content {
+        position: relative;
+      }
+      .p-colorpicker-panel .p-colorpicker-color-selector {
+        width: 150px;
+        height: 150px;
+        top: 8px;
+        left: 8px;
+        position: absolute;
+      }
+      .p-colorpicker-panel .p-colorpicker-color {
+        width: 150px;
+        height: 150px;
+      }
+      .p-colorpicker-panel .p-colorpicker-color-handle {
+        position: absolute;
+        top: 0px;
+        left: 150px;
+        border-radius: 100%;
+        width: 10px;
+        height: 10px;
+        border-width: 1px;
+        border-style: solid;
+        margin: -5px 0 0 -5px;
+        cursor: pointer;
+        opacity: 0.85;
+      }
+      .p-colorpicker-panel .p-colorpicker-hue {
+        width: 17px;
+        height: 150px;
+        top: 8px;
+        left: 167px;
+        position: absolute;
+        opacity: 0.85;
+      }
+      .p-colorpicker-panel .p-colorpicker-hue-handle {
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        width: 21px;
+        margin-left: -2px;
+        margin-top: -5px;
+        height: 10px;
+        border-width: 2px;
+        border-style: solid;
+        opacity: 0.85;
+        cursor: pointer;
+      }
+    </style>
+    <style type="text/css" data-primevue-style-id="base">
+      .p-hidden-accessible {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+
+      .p-hidden-accessible input,
+      .p-hidden-accessible select {
+        transform: scale(0);
+      }
+
+      .p-overflow-hidden {
+        overflow: hidden;
+        padding-right: var(--scrollbar-width);
+      }
+    </style>
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/Login.3d3fe079.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/index.esm.79eb13fc.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/index.esm.d3afcade.1738925476577.js"
+    />
+    <style type="text/css" data-primevue-style-id="baseicon">
+      .p-icon {
+        display: inline-block;
+      }
+
+      .p-icon-spin {
+        -webkit-animation: p-icon-spin 2s infinite linear;
+        animation: p-icon-spin 2s infinite linear;
+      }
+
+      @-webkit-keyframes p-icon-spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(359deg);
+          transform: rotate(359deg);
+        }
+      }
+
+      @keyframes p-icon-spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(359deg);
+          transform: rotate(359deg);
+        }
+      }
+    </style>
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/Main.6cd10bd2.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/helpers.84f5abf4.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/_plugin-vue_export-helper.c27b6911.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/StudentNotification.0a04489b.1738925476577.js"
+    />
+    <link
+      rel="stylesheet"
+      href="./MyEDU_files/Main.6e7cef3c.1738925476577.css"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/mainPage.319622ab.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/user.adebd8aa.1738925476577.js"
+    />
+    <link
+      rel="stylesheet"
+      href="./MyEDU_files/mainPage.00372860.1738925476577.css"
+    />
+    <style type="text/css">
+      @media screen and (max-width: 960px) {
+        .p-dialog[pv_id_5] {
+          width: 75vw !important;
+        }
+      }
+
+      @media screen and (max-width: 640px) {
+        .p-dialog[pv_id_5] {
+          width: 90vw !important;
+        }
+      }
+    </style>
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/StudentSchedules.0c357c53.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/Days.678acb54.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/Schedule.a83ef0e7.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/Classroom.0e0b5a25.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/LessonTime.eeacc7ce.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/Semester.5bb7b530.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/Stream.117d3364.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/Curricula.d00925f9.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/EduYear.7f89aa38.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/ExtraType.4598cec6.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/Subject.9cb617a1.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/WorkloadTeacher.324a2831.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/ListUser.3bee42e8.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/hooks.345073e9.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/ScheduleItem.b7340d38.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/index.80bc5590.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/StudentCurricula.6bddd682.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/Type_semester.07038e9e.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/List.8437fb5a.1738925476577.js"
+    />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="https://myedu.oshsu.kg/assets/PerPage.4022ef10.1738925476577.js"
+    />
+    <link
+      rel="stylesheet"
+      href="./MyEDU_files/StudentCurricula.ae2622c8.1738925476577.css"
+    />
+    <style type="text/css" data-primevue-style-id="virtualscroller">
+      @layer primevue {
+        .p-virtualscroller {
+          position: relative;
+          overflow: auto;
+          contain: strict;
+          transform: translateZ(0);
+          will-change: scroll-position;
+          outline: 0 none;
+        }
+
+        .p-virtualscroller-content {
+          position: absolute;
+          top: 0;
+          left: 0;
+          /* contain: content; */
+          min-height: 100%;
+          min-width: 100%;
+          will-change: transform;
+        }
+
+        .p-virtualscroller-spacer {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 1px;
+          width: 1px;
+          transform-origin: 0 0;
+          pointer-events: none;
+        }
+
+        .p-virtualscroller .p-virtualscroller-loader {
+          position: sticky;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+
+        .p-virtualscroller-loader.p-component-overlay {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .p-virtualscroller-loading-icon {
+          font-size: 2rem;
+        }
+
+        .p-virtualscroller-loading-icon.p-icon {
+          width: 2rem;
+          height: 2rem;
+        }
+
+        .p-virtualscroller-horizontal > .p-virtualscroller-content {
+          display: flex;
+        }
+
+        /* Inline */
+        .p-virtualscroller-inline .p-virtualscroller-content {
+          position: static;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" data-v-app="">
+      <div class="layout-wrapper layout-static layout-theme-light">
+        <div class="layout-topbar">
+          <a
+            href="https://myedu.oshsu.kg/#/main"
+            class="router-link-active layout-topbar-logo"
+            ><img alt="Logo" src="./MyEDU_files/logo-white3.svg" /></a
+          >
+          <ul class="layout-topbar-menu hidden lg:flex origin-top">
+            <li class="flex align-items-center">Ибрагимов Ф.И.</li>
+            <li>
+              <button class="p-link layout-topbar-button">
+                <i class="pi pi-sign-out"></i><span>Выйти</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="layout-sidebar">
+          <div class="custom_menu">
+            <a
+              href="https://myedu.oshsu.kg/#/main"
+              class="router-link-active cm_item"
+              exact=""
+              ><i class="mr-2 pi pi-home"></i><span>Главная</span></a
+            ><a href="https://myedu.oshsu.kg/#/profile" class="cm_item" exact=""
+              ><i class="mr-2 pi pi-user"></i><span>Профиль</span></a
+            >
+          </div>
+          <hr class="mt-2 mb-3" />
+          <div class="layout-menu-container">
+            <ul class="layout-menu">
+              <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+              <li class="layout-menuitem-category" role="none">
+                <div class="layout-menuitem-root-text">Студент</div>
+                <ul>
+                  <li class="" role="none">
+                    <a
+                      href="https://myedu.oshsu.kg/#/studRegCurricula"
+                      class="p-ripple"
+                      exact=""
+                      role="menuitem"
+                      data-pd-ripple="true"
+                      ><i class="pi pi-fw pi-check-square"></i
+                      ><span>Регистрация на семестр</span
+                      ><!----><!----><span
+                        role="presentation"
+                        aria-hidden="true"
+                        data-p-ink="true"
+                        data-p-ink-active="false"
+                        class="p-ink"
+                        data-pc-name="ripple"
+                        data-pc-section="root"
+                      ></span></a
+                    ><!----><!---->
+                  </li>
+                  <!---->
+                  <li class="" role="none">
+                    <a
+                      href="https://myedu.oshsu.kg/#/studentSchedules"
+                      class="router-link-active router-link-exact-active p-ripple"
+                      exact=""
+                      role="menuitem"
+                      data-pd-ripple="true"
+                      aria-current="page"
+                      ><i class="pi pi-fw pi-th-large"></i
+                      ><span>Расписание</span
+                      ><!----><!----><span
+                        role="presentation"
+                        aria-hidden="true"
+                        data-p-ink="true"
+                        data-p-ink-active="false"
+                        class="p-ink"
+                        data-pc-name="ripple"
+                        data-pc-section="root"
+                        style="
+                          height: 258px;
+                          width: 258px;
+                          top: -107.6px;
+                          left: -6px;
+                        "
+                      ></span></a
+                    ><!----><!---->
+                  </li>
+                  <!---->
+                  <li class="" role="none">
+                    <a
+                      href="https://myedu.oshsu.kg/#/studentCurricula"
+                      class="p-ripple"
+                      exact=""
+                      role="menuitem"
+                      data-pd-ripple="true"
+                      ><i class="pi pi-fw pi-list"></i
+                      ><span>Мой учебный план</span
+                      ><!----><!----><span
+                        role="presentation"
+                        aria-hidden="true"
+                        data-p-ink="true"
+                        data-p-ink-active="false"
+                        class="p-ink"
+                        data-pc-name="ripple"
+                        data-pc-section="root"
+                        style="
+                          height: 258px;
+                          width: 258px;
+                          top: -99px;
+                          left: -34px;
+                        "
+                      ></span></a
+                    ><!----><!---->
+                  </li>
+                  <!---->
+                  <li class="" role="none">
+                    <a
+                      href="https://myedu.oshsu.kg/#/studentSession"
+                      class="p-ripple"
+                      exact=""
+                      role="menuitem"
+                      data-pd-ripple="true"
+                      ><i class="pi pi-fw pi-calendar-clock"></i
+                      ><span>Сессия</span
+                      ><!----><!----><span
+                        role="presentation"
+                        aria-hidden="true"
+                        data-p-ink="true"
+                        data-p-ink-active="false"
+                        class="p-ink"
+                        data-pc-name="ripple"
+                        data-pc-section="root"
+                      ></span></a
+                    ><!----><!---->
+                  </li>
+                  <!---->
+                  <li class="" role="none">
+                    <a
+                      href="https://myedu.oshsu.kg/#/studentContract"
+                      class="p-ripple"
+                      exact=""
+                      role="menuitem"
+                      data-pd-ripple="true"
+                      ><i class="pi pi-fw pi-dollar"></i
+                      ><span>Контракт (Оплаты)</span
+                      ><!----><!----><span
+                        role="presentation"
+                        aria-hidden="true"
+                        data-p-ink="true"
+                        data-p-ink-active="false"
+                        class="p-ink"
+                        data-pc-name="ripple"
+                        data-pc-section="root"
+                      ></span></a
+                    ><!----><!---->
+                  </li>
+                  <!---->
+                </ul>
+              </li>
+              <!---->
+            </ul>
+          </div>
+        </div>
+        <div class="layout-main-container">
+          <div class="layout-main">
+            <div class="card">
+              <div class="card_header mb-4">
+                <div
+                  class="md:flex md:justify-content-between md:align-items-center"
+                >
+                  <h5 class="mb-4 md:mb-0 text-center md:text-left">
+                    Расписание
+                  </h5>
+                  
+                  
+                </div>
+              </div>
+              <h5>Графический дизайн (Очное бакалавр, 2-семестр)</h5>
+              <div class="studentMainScheduleSM pt-5">
+                <div class="days mb-3">
+                  <div class="day bg-gray-200"><a href="./MyEDU2.html">пн</a></div>
+                  <div class="day bg-gray-200 bg-primary-500 text-white">
+                    вт
+                  </div>
+                  <div class="day bg-gray-200"><a href="./MyEDU3.html">cp</a></div>
+                  <div class="day bg-gray-200"><a href="./MyEDU4.html">чт</a></div>
+                  <div class="day bg-gray-200"><a href="./MyEDU5.html">пт</a></div>
+                  <div class="day bg-gray-200"><a href="./MyEDU6.html">сб</a></div>
+                </div>
+                <div class="schedules" style="">
+                  <div class="studShed" style="--bg-sch: #d54216">
+                    <div class="lesson">
+                      <span>1-пара</span><span>08:00 - 09:30</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">
+                          Самодисциплина и психология
+                        </div>
+                        <div class="sb_item">Пр (1)</div>
+                        <div class="sb_item typeWeek">
+                          <!---->
+                          <div class="t1"></div>
+                          <!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Эрмекова А.А.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> 47
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="display: none">
+                  <div class="studShed" style="--bg-sch: #dc36df">
+                    <div class="lesson">
+                      <span>1-пара</span><span>08:00 - 09:30</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">Corel Draw</div>
+                        <div class="sb_item">Лб (2)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Абдивоситова А.Г.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> 310б
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="schedules" style="">
+                    <div class="studShed" style="--bg-sch: #3a8af9">
+                      <div class="lesson">
+                        <span>1-пара</span><span>08:00 - 09:30</span>
+                      </div>
+                      <div class="sch_block">
+                        <div class="sb_row">
+                          <div class="sb_item wr name">
+                            Искусственный интеллект
+                          </div>
+                          <div class="sb_item">Лк (1)</div>
+                          <div class="sb_item typeWeek">
+                            <!----><!---->
+                            <div class="t2"></div>
+                          </div>
+                        </div>
+                        <div class="sb_row">
+                          <div class="sb_item nw name">Акматов А.А.</div>
+                          <div class="sb_item">
+                            <i class="pi pi-map-marker"></i> 209
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="schedules" style="display: none">
+                    <div class="studShed" style="--bg-sch: #dc36df">
+                      <div class="lesson">
+                        <span>1-пара</span><span>08:00 - 09:30</span>
+                      </div>
+                      <div class="sch_block">
+                        <div class="sb_row">
+                          <div class="sb_item wr name">Corel Draw</div>
+                          <div class="sb_item">Лк (1)</div>
+                          <div class="sb_item typeWeek">
+                            <div class="t0"></div>
+                            <!----><!---->
+                </div>
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Абдивоситова А.Г.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> 207
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="display: none">
+                  <div class="studShed" style="--bg-sch: #19b51b">
+                    <div class="lesson">
+                      <span>1-пара</span><span>08:00 - 09:30</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">Русский язык</div>
+                        <div class="sb_item">Пр (2)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Боронова К.Р.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> 46
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="display: none">
+                  <div class="studShed" style="--bg-sch: #00b194">
+                    <div class="lesson">
+                      <span>2-пара</span><span>09:40 - 11:10</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">Рисунок</div>
+                        <div class="sb_item">Лк (1)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Эшбаев М.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> 507
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="">
+                  <div class="studShed" style="--bg-sch: #3954db">
+                    <div class="lesson">
+                      <span>2-пара</span><span>09:40 - 11:10</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">
+                          Компьютерная обработка изображений
+                        </div>
+                        <div class="sb_item">Лк (1)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Маманов М.К.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> 327
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="display: none">
+                  <div class="studShed" style="--bg-sch: #3a8af9">
+                    <div class="lesson">
+                      <span>2-пара</span><span>09:40 - 11:10</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">
+                          Искусственный интеллект
+                        </div>
+                        <div class="sb_item">Лб (2)</div>
+                        <div class="sb_item typeWeek">
+                          <!----><!---->
+                          <div class="t2"></div>
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Акматов А.А.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> 310б
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="display: none">
+                  <div class="studShed" style="--bg-sch: #d54216">
+                    <div class="lesson">
+                      <span>2-пара</span><span>09:40 - 11:10</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">
+                          Самодисциплина и психология
+                        </div>
+                        <div class="sb_item">Лк (1)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Сабирова М.М.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> 37 а
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="display: none">
+                  <div class="studShed" style="--bg-sch: #19b51b">
+                    <div class="lesson">
+                      <span>3-пара</span><span>11:40 - 13:10</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">Русский язык</div>
+                        <div class="sb_item">Пр (2)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Боронова К.Р.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> 35 а
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="display: none">
+                  <div class="studShed" style="--bg-sch: #8e3def">
+                    <div class="lesson">
+                      <span>3-пара</span><span>11:40 - 13:10</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">Adobe Photoshop</div>
+                        <div class="sb_item">Лк (1)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Бактыбек уулу Б.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> 209
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="">
+                  <div class="studShed" style="--bg-sch: #8e3def">
+                    <div class="lesson">
+                      <span>3-пара</span><span>11:40 - 13:10</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">Adobe Photoshop</div>
+                        <div class="sb_item">Лб (2)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Бактыбек уулу Б.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> 310б
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="display: none">
+                  <div class="studShed" style="--bg-sch: #00b194">
+                    <div class="lesson">
+                      <span>4-пара</span><span>13:20 - 14:50</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">Рисунок</div>
+                        <div class="sb_item">Пр (2)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Оморкулов А.М.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> 407
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="">
+                  <div class="studShed" style="--bg-sch: #e72579">
+                    <div class="lesson">
+                      <span>4-пара</span><span>13:20 - 14:50</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">Физическая культура</div>
+                        <div class="sb_item">Пр (1)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Ханкелдиев Т.К.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> Спорт аянтчасы №1
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="display: none">
+                  <div class="studShed" style="--bg-sch: #e72579">
+                    <div class="lesson">
+                      <span>5-пара</span><span>15:00 - 16:30</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">Физическая культура</div>
+                        <div class="sb_item">Лк (1)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Сапиев Ж.Э.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> Спорт аянтчасы №1
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="">
+                  <div class="studShed" style="--bg-sch: #e72579">
+                    <div class="lesson">
+                      <span>5-пара</span><span>15:00 - 16:30</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">Физическая культура</div>
+                        <div class="sb_item">Пр (1)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Ханкелдиев Т.К.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> Спорт аянтчасы №1
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedules" style="display: none">
+                  <div class="studShed" style="--bg-sch: #e72579">
+                    <div class="lesson">
+                      <span>5-пара</span><span>15:00 - 16:30</span>
+                    </div>
+                    <div class="sch_block">
+                      <div class="sb_row">
+                        <div class="sb_item wr name">Физическая культура</div>
+                        <div class="sb_item">Пр (1)</div>
+                        <div class="sb_item typeWeek">
+                          <div class="t0"></div>
+                          <!----><!---->
+                        </div>
+                      </div>
+                      <div class="sb_row">
+                        <div class="sb_item nw name">Ханкелдиев Т.К.</div>
+                        <div class="sb_item">
+                          <i class="pi pi-map-marker"></i> Спорт аянтчасы №1
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+            </div>
+          </div>
+          <div class="layout-footer">
+            2025 ОшГУ | Разработка © 2023 OshSU - IT Academy
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+
+    <div
+      class="p-toast p-component p-toast-top-right"
+      data-pc-name="toast"
+      data-pc-section="root"
+      style="position: fixed; top: 20px; right: 20px"
+    >
+      <div data-pc-section="message"></div>
+    </div>
+    <script id="5rZy8jLw==" src="./MyEDU_files/start"></script>
+    <script
+      src="./MyEDU_files/analytics"
+      defer="true"
+      async="true"
+      type="text/javascript"
+    ></script>
+    <script id="8jL21haW4=" src="./MyEDU_files/start(1)"></script>
+    <script
+      src="./MyEDU_files/analytics(1)"
+      defer="true"
+      async="true"
+      type="text/javascript"
+    ></script>
+    <script id="hlZHVsZXM=" src="./MyEDU_files/start(2)"></script>
+    <script
+      src="./MyEDU_files/analytics(2)"
+      defer="true"
+      async="true"
+      type="text/javascript"
+    ></script>
+    <script id="JyaWN1bGE=" src="./MyEDU_files/start(3)"></script>
+    <script
+      src="./MyEDU_files/analytics(3)"
+      defer="true"
+      async="true"
+      type="text/javascript"
+    ></script>
+    <!---->
+    <script
+      src="./MyEDU_files/analytics(2)"
+      defer="true"
+      async="true"
+      type="text/javascript"
+    ></script>
+  </body>
+</html>
